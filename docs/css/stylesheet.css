@@ -1,0 +1,26 @@
+html {
+    background-image: url("../images/download.jpg");
+}
+/* werkt niet in chrome, wel Firefox */
+section {
+    overflow: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    scroll-snap-type: x mandatory;
+    width: 80vh;
+    height: 90vh;
+    margin: auto;
+}
+
+figure {
+    background-color: rgba(0,0,255,0.5);
+    color: white;
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+    text-align: center;
+    object-fit: contain;
+}
+
+div {
+    scroll-snap-align: none;
+}
