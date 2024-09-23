@@ -10,7 +10,6 @@ section {
     width: 80vw;
     height: 90vh;
     margin: auto;
-    font-size: 25px;
 }
 
 figure {
@@ -20,6 +19,10 @@ figure {
     scroll-snap-stop: always;
     text-align: center;
     object-fit: contain;
+}
+
+figcaption {
+    font-size: 20px;
 }
 
 div {
