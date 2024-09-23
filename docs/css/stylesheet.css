@@ -14,6 +14,7 @@ section {
 
 figure {
     background-color: rgba(0,0,255,0.5);
+    width: 80vw;
     color: white;
     scroll-snap-align: center;
     scroll-snap-stop: always;
@@ -32,6 +33,9 @@ div {
 
 @media (max-width: 1000px) and (orientation: portrait {
     section {
+        width: 100vw;
+    }
+    figure {
         width: 100vw;
     }
 }
