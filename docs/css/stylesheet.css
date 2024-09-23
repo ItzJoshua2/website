@@ -7,7 +7,7 @@ section {
     display: flex;
     flex-flow: row nowrap;
     scroll-snap-type: x mandatory;
-    width: 80vh;
+    width: 80vw;
     height: 90vh;
     margin: auto;
 }
@@ -24,3 +24,4 @@ figure {
 div {
     scroll-snap-align: none;
 }
+
