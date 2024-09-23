@@ -38,6 +38,7 @@ div {
     }
     figure {
         width: 90vw;
+        scroll-snap-align: start;
     }
 }
 
@@ -45,6 +46,10 @@ div {
     section {
         height: 80vh;
         margin: 0;
+    }
+    figure {
+        scroll-snap-align: start;
+    }
     figure img {
         height: 50vh;
     }
