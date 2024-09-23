@@ -25,3 +25,8 @@ div {
     scroll-snap-align: none;
 }
 
+@media (max-width: 640px) and (orientation: portrait {
+    section {
+        width: 100vw;
+    }
+}
