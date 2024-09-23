@@ -42,9 +42,9 @@ div {
 
 @media (max-width: 1000px) and (orientation: landscape) {
     section {
-        max-height: 50vh;
+        height: 80vh;
     figure img {
-        max-height: 40vh;
+        height: 70vh;
     }
     figcaption {
         position: relative;
